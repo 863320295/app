@@ -9,21 +9,15 @@
 - 原生性能：Flutter包含了许多核心的widget，如滚动、导航、图标和字体等，这些都可以在iOS和Android上达到原生应用一样的性能。
 &nbsp;
 
-----
-
 ## 快速开发
 
 Flutter的热重载可帮助您快速地进行测试、构建UI、添加功能并更快地修复错误。在iOS和Android模拟器或真机上可以在亚秒内重载，并且不会丢失状态。
 &nbsp;
 
-----
-
 ## 富有表现力，漂亮的用户界面
 
 使用Flutter内置美丽的Material Design和Cupertino（iOS风格）widget、丰富的motion API、平滑而自然的滑动效果和平台感知，为您的用户带来全新体验。
 &nbsp;
-
-----
 
 ## 现代的，响应式框架
 
@@ -58,8 +52,6 @@ class CounterState extends State<Counter> {
 ```
 &nbsp;
 
-----
-
 ## 访问本地功能和SDK
 
 通过平台相关的API、第三方SDK和原生代码让您的应用变得强大易用。
@@ -80,8 +72,6 @@ Future<Null> getBatteryLevel() async {
 }
 ```
 &nbsp;
-
-----
 
 ## 统一的应用开发体验
 

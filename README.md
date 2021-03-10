@@ -1,2 +1,4 @@
 # 智能移动开发
-Intelligent Mobile Development
+
+- 学号：1813012
+- 姓名：柳鑫

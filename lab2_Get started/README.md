@@ -17,5 +17,5 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-[Image text](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p1.png)
-[Image text](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p2.png)
+![Image text](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p1.png)
+![Image text](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p2.png)

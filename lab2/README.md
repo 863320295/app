@@ -40,5 +40,5 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-![图片1](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p1.png)
-![图片2](https://github.com/863320295/app/blob/main/lab2_Get%20started/img/p2.png)
+![图片1](https://github.com/863320295/app/blob/main/lab2/img/p1.png)
+![图片2](https://github.com/863320295/app/blob/main/lab2/img/p2.png)

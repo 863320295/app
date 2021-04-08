@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+
+    <string name="edittext_uri">http://www.baidu.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Starbucks</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">翻过这座山，他们就会听到你的故事。</string>
+    <string name="button_share">Share This Text</string>
+
+    <string name="share_text_with">Share this text with: </string>
+
+    <string name="take_a_picture">Take a Picture</string>
+</resources>

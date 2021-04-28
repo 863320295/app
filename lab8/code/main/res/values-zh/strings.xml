@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">安卓</string>
+    <string name="title_placeholder">标题</string>
+    <string name="news_placeholder">新闻</string>
+    <string name="sports_info_placeholder">这里有一些新闻</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sollicitudin eros, quis rhoncus nisl. Aliquam odio diam, elementum nec interdum eget, rhoncus eu odio. Vivamus lobortis, arcu sed porttitor mattis, nunc orci tincidunt risus, sed finibus ante quam sed sem. Curabitur cursus aliquam tortor, quis mollis leo. Praesent malesuada ipsum nibh, sed egestas magna pulvinar at. Nam ac volutpat massa. Quisque malesuada metus sed odio lobortis, eu elementum metus dictum. Etiam laoreet tortor ac nulla laoreet, id laoreet leo consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis et auctor nisi. Cras porta, magna et facilisis dapibus, ante massa malesuada libero, ut facilisis odio dolor in eros. Aliquam vitae metus sem.</string>
+    <string name="transition_view">transitionView</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="favorites">Favorites</string>
+
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Here is some Baseball news!</item>
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">美好食刻</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="edit_food">Edit Your Food</string>
+    <string name="create_food">Create Your Food</string>
+    <string name="more_food">More About</string>
+    <string name="record_food">create</string>
+    <string name="share">share</string>
+    <string name="edit">edit</string>
+    <string name="photo">photo</string>
+    <string name="save">save</string>
+    <string name="enter_title">Please enter title here</string>
+    <string name="enter_content">Please enter content here</string>
+    <string name="Macaron">Macaron</string>
+    <string name="Egg">Egg</string>
+    <string name="Sandwich">Sandwich</string>
+    <string name="Ice_cream">Ice cream</string>
+    <string name="Shakshuka">Shakshuka</string>
+    <string name="Coffee">Coffee</string>
+    <string name="Kulry">Kulry</string>
+    <string name="Taco">Taco</string>
+    <string name="Chocolate">Chocolate</string>
+    <string name="Spaghetti">Spaghetti</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Hamburger">Hamburger</string>
+    <string name="Steak">Steak</string>
+    <string name="Donut">Donut</string>
+    <string name="Cake">Cake</string>
+    <string name="Chongqing_noodle">Chongqing noodle</string>
+    <string name="Bread">Bread</string>
+    <string name="Dumpling">Dumpling</string>
+    <string name="Cookie">Cookie</string>
+    <string name="search">Search</string>
+</resources>

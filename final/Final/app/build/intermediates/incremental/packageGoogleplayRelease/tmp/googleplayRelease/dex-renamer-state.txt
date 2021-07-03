@@ -1,0 +1,4 @@
+#Wed Jun 16 19:04:06 CST 2021
+base.0=D\:\\Android\\Projects\\Final\\app\\build\\intermediates\\dex\\googleplayRelease\\mergeDexGoogleplayRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

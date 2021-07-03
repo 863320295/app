@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">美好食刻</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="edit_food">编辑美食</string>
+    <string name="create_food">新建美食</string>
+    <string name="more_food">美食详情</string>
+    <string name="record_food">记录美食</string>
+    <string name="share">分享</string>
+    <string name="edit">编辑</string>
+    <string name="photo">图片</string>
+    <string name="save">保存</string>
+    <string name="enter_title">请输入美食的标题</string>
+    <string name="enter_content">请输入美食的内容</string>
+    <string name="Macaron">马卡龙</string>
+    <string name="Egg">鸡蛋</string>
+    <string name="Sandwich">三明治</string>
+    <string name="Ice_cream">冰淇淋</string>
+    <string name="Shakshuka">北非蛋</string>
+    <string name="Coffee">咖啡</string>
+    <string name="Kulry">咖喱</string>
+    <string name="Taco">塔可</string>
+    <string name="Chocolate">巧克力</string>
+    <string name="Spaghetti">意大利面</string>
+    <string name="Pizza">披萨</string>
+    <string name="Hamburger">汉堡</string>
+    <string name="Steak">牛排</string>
+    <string name="Donut">甜甜圈</string>
+    <string name="Cake">蛋糕</string>
+    <string name="Chongqing_noodle">重庆小面</string>
+    <string name="Bread">面包</string>
+    <string name="Dumpling">饺子</string>
+    <string name="Cookie">饼干</string>
+    <string name="search">搜索</string>
+</resources>

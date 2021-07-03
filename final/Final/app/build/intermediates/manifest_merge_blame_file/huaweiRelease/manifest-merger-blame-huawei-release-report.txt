@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nankailiuxin.xapp"
+4    android:versionCode="4"
+5    android:versionName="1.1.0" > <!-- 解决项目minSDK与第三方库minSDK不一致情况 -->
+6    <uses-sdk
+6-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:5:5-71
+7        android:minSdkVersion="15"
+7-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:5:5-71
+8        android:targetSdkVersion="29" />
+8-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:5:5-71
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:7:5-67
+10-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:7:22-64
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:8:5-80
+11-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:8:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:9:5-81
+12-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:9:22-78
+13
+14    <meta-data
+14-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:11:5-13:52
+15        android:name="UMENG_APPKEY"
+15-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:12:9-36
+16        android:value="60be1232799cce47f9398b2e" />
+16-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:13:9-49
+17    <meta-data
+18        android:name="UMENG_CHANNEL"
+18-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:15:9-37
+19        android:value="huawei" />
+19-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:16:9-47
+20
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:12:5-76
+21-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:12:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:13:5-79
+22-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:13:22-76
+23
+24    <application
+24-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:18:5-55:19
+25        android:name="com.nankailiuxin.xapp.MyApplication"
+25-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:19:9-38
+26        android:allowBackup="true"
+26-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:20:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] D:\Android\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:21:9-43
+29        android:label="@string/app_name"
+29-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:22:9-41
+30        android:requestLegacyExternalStorage="true"
+30-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:23:9-52
+31        android:resizeableActivity="true"
+31-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:24:9-42
+32        android:supportsRtl="true"
+32-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:25:9-35
+33        android:theme="@style/AppTheme" >
+33-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:26:9-40
+34        <activity
+34-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:27:9-32:20
+35            android:name="com.nankailiuxin.xapp.ui.WelcomeActivity"
+35-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:27:19-53
+36            android:theme="@style/AppThemeLauncher" >
+36-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:27:54-93
+37            <intent-filter>
+37-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:28:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:29:17-69
+38-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:30:17-77
+40-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:33:9-37:20
+44            android:name="com.nankailiuxin.xapp.ui.MainActivity"
+44-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:34:13-44
+45            android:label="@string/app_name" >
+45-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:35:13-45
+46        </activity>
+47        <activity
+47-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:38:9-41:70
+48            android:name="com.nankailiuxin.xapp.ui.NewActivity"
+48-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:39:13-43
+49            android:label="@string/title_activity_new"
+49-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:40:13-55
+50            android:windowSoftInputMode="stateHidden|adjustResize" />
+50-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:41:13-67
+51        <activity
+51-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:42:9-44:59
+52            android:name="com.nankailiuxin.xapp.ui.NoteActivity"
+52-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:43:13-44
+53            android:label="@string/title_activity_note" />
+53-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:44:13-56
+54
+55        <provider
+55-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:46:9-54:20
+56            android:name="androidx.core.content.FileProvider"
+56-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:47:13-62
+57            android:authorities="com.nankailiuxin.matisse.fileprovider"
+57-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:48:13-72
+58            android:exported="false"
+58-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:49:13-37
+59            android:grantUriPermissions="true" >
+59-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:50:13-47
+60            <meta-data
+60-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:51:13-53:54
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:52:17-67
+62                android:resource="@xml/file_paths" />
+62-->D:\Android\Projects\Final\app\src\main\AndroidManifest.xml:53:17-51
+63        </provider>
+64
+65        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+65-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:28:9-73
+65-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:28:19-70
+66        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+66-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:29:9-87
+66-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:29:19-84
+67        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+67-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:30:9-90
+67-->[com.zhihu.android:matisse:0.5.3-beta3] D:\Android\.gradle\caches\transforms-2\files-2.1\37dad42f96c00eb2d6ea34f66ac05864\matisse-0.5.3-beta3\AndroidManifest.xml:30:19-87
+68
+69        <service android:name="com.wenming.library.upload.UploadService" />
+69-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:21:9-76
+69-->[com.github.wenmingvs:LogReport:1.0.3] D:\Android\.gradle\caches\transforms-2\files-2.1\554c5fd404dd1204a99ae057f31f3c37\LogReport-1.0.3\AndroidManifest.xml:21:18-73
+70
+71        <meta-data
+71-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] D:\Android\.gradle\caches\transforms-2\files-2.1\b09ddd553669689ecb015279e53b770a\okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+72            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+72-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] D:\Android\.gradle\caches\transforms-2\files-2.1\b09ddd553669689ecb015279e53b770a\okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+73            android:value="GlideModule" />
+73-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] D:\Android\.gradle\caches\transforms-2\files-2.1\b09ddd553669689ecb015279e53b770a\okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+74    </application>
+75
+76</manifest>

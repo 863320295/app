@@ -1,0 +1,4 @@
+#Wed Jun 16 19:04:07 CST 2021
+base.0=D\:\\Android\\Projects\\Final\\app\\build\\intermediates\\dex\\huaweiRelease\\mergeDexHuaweiRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

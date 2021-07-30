@@ -1,0 +1,14 @@
+div#codelab-nav-buttons
+{
+    display: none;
+}
+
+#done
+{
+    display: none;
+}
+
+.codelab-time-container
+{
+    display: none;
+}
